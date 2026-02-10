@@ -1,5 +1,4 @@
 students = {}
-
 print("Welcome to the Student Data Organizer!")
 
 while True:
@@ -14,13 +13,13 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == "1":
-        print("\nEnter student details:")
+        print("Enter student details:")
         sid = int(input("Student ID: "))
         name = input("Name: ")
         age = int(input("Age: "))
         grade = input("Grade: ")
         dob = input("Date of Birth (YYYY-MM-DD): ")
-        subjects = input("Subjects (comma-separated): ").split(",")
+        subjects = input("Subjects (comma-separated): ").
 
         students[sid] = {
             "name": name,
@@ -87,4 +86,5 @@ while True:
         break
 
     else:
+
         print("Invalid choice. Please try again.")
